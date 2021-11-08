@@ -2,19 +2,31 @@ ul{
     list-style-type:none;
     margin: 0;
     padding: 0;
+    width: 200px;
+    background-color: black;
+
 }
 
 li a{ 
     display: block;
-    width: 60px;
-    color: #ff0000;
-    background-color: blue;
+    padding: 16px 32px;
+    color: #ffffff;
+    text-decoration: none;
 }
 li a:hover{ 
     background-color: green;
+    color:brown
 
 }
 h1 {
     text-align: center
     
+}
+.active { 
+    background-color: aliceblue;
+    color:blue;
+  
+}
+ul{
+    border:1px 
 }
