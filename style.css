@@ -3,19 +3,20 @@ ul{
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: black;
+    background-color: rgb(59, 144, 255);
+    float: right;
 
 }
 
 li a{ 
     display: block;
-    padding: 16px 32px;
+    padding: 40px 80px;
     color: #ffffff;
     text-decoration: none;
 }
 li a:hover{ 
-    background-color: green;
-    color:brown
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0)
 
 }
 h1 {
@@ -23,10 +24,14 @@ h1 {
     
 }
 .active { 
-    background-color: aliceblue;
+    background-color: rgb(1, 98, 184);
     color:blue;
   
 }
 ul{
     border:1px 
 }
+body{ 
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Fbasketball-court.html&psig=AOvVaw05fMyN_34hrMh24W7vCROP&ust=1637398178123000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCOisodiFpPQCFQAAAAAdAAAAABAE)
+}
+ 
