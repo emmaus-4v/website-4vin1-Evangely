@@ -2,17 +2,21 @@ ul{
     list-style-type:none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    overflow:hidden;
     background-color: rgb(59, 144, 255);
-    float: right;
 
+}
+li{ 
+    float: left;
+    
 }
 
 li a{ 
     display: block;
-    padding: 40px 80px;
+    padding:16px 18px;
     color: #ffffff;
     text-decoration: none;
+    text-align:center;
 }
 li a:hover{ 
     background-color: rgb(255, 255, 255);
@@ -36,9 +40,21 @@ body{
    
 }
 img{
-    float: left;
+    
     width: 200px;
+    padding-top: 30px;
     
 }
-
- 
+li{
+   font-size: 20px;
+}
+header{
+    background-color: rgba(255, 200, 17, 0.3);
+    height:50px;
+    padding:20px;
+    text-align: center;
+}
+.column{
+    float:left;
+    width: 33.33%;
+}
