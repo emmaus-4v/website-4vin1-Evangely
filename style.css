@@ -3,7 +3,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow:hidden;
-    background-color: rgb(59, 144, 255);
+    background-color: rgb(255, 196, 0);
 
 }
 li{ 
@@ -28,7 +28,7 @@ h1 {
     
 }
 .active { 
-    background-color: rgb(1, 98, 184);
+    background-color: rgb(168, 123, 0);
     color:blue;
   
 }
@@ -54,7 +54,11 @@ header{
     padding:20px;
     text-align: center;
 }
-.column{
-    float:left;
-    width: 33.33%;
+img{
+    float: left;
+
+}
+.top{
+    float: right;
+    
 }
