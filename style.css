@@ -76,11 +76,15 @@ main {
     
 }
 
-p{
+#index{
     margin: 0 auto;
 }
 .pfp{
 height: 300px;
 
+}
+
+.teams{
+    height: 300px;
 }
 
